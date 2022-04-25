@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profil">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Profil"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:id="@+id/tvWelcome"
+        />
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="center"
+        android:src="@drawable/foto_profil" />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : Riaen Lay"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/tvAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat : Jl.Juang Dalam Nanga Pinoh"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/tvNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nim : 191103568"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
